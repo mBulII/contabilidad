@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.10.14)  26 NOV 2024 08:39
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.10.14)  26 NOV 2024 17:06
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1183,10 +1183,10 @@ or `spanish'. on input line 32.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<images/download.png, id=39, 390.45876pt x 129.48375pt>
-File: images/download.png Graphic file (type png)
-<use images/download.png>
-Package luatex.def Info: images/download.png  used on input line 34.
+<figures/download.png, id=39, 390.45876pt x 129.48375pt>
+File: figures/download.png Graphic file (type png)
+<use figures/download.png>
+Package luatex.def Info: figures/download.png  used on input line 34.
 (luatex.def)             Requested size: 145.11053pt x 48.12161pt.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  50.
@@ -1227,8 +1227,8 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./images/download
-.png>] (./main.toc
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figures/downloa
+d.png>] (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available

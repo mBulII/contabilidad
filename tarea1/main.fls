@@ -1,4 +1,4 @@
-PWD C:/Users/papip/U/latex/tarea contabilidad
+PWD C:/Users/papip/U/latex/contabilidad/tarea1
 INPUT c:/texlive/2024/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT main.log
@@ -232,8 +232,8 @@ INPUT ./main.out
 OUTPUT main.pdf
 OUTPUT main.out
 INPUT c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-spanish.trsl
-INPUT ./images/download.png
-INPUT ./images/download.png
+INPUT ./figures/download.png
+INPUT ./figures/download.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
