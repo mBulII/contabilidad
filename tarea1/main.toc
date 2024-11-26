@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Resolución de Actividad}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Fraude al Fisco}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Malversación de Caudales Públicos}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Cohecho}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Falsificación de Instrumento Público}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Lavado de Activos}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Irregularidades}{6}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Conclusión}{8}{section.2}%
