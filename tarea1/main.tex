@@ -5,8 +5,20 @@
 \usepackage[makeroom]{cancel}
 \usepackage[export]{adjustbox}
 \usepackage[spanish]{babel}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[
+backend=biber,
+style=ieee,
+minnames=1,
+maxcitenames=2, maxbibnames=6
+]{biblatex}
+\DefineBibliographyStrings{spanish}{%
+	url = {[En línea]. Disponible en:},
+}
+\addbibresource{bibliography.bib}
 %\usepackage[none]{hyphenat}
-\usepackage{multicol,graphicx,fancyhdr,eso-pic,url,float,cite,lmodern,listings,times,textcomp,amsthm,amsmath,amssymb,mathptmx,dsfont,color,colortbl,sidecap,xspace,epic,eepic,anysize,setspace,hyperref,pdflscape,subfigure,gensymb,siunitx,caption,subcaption,wrapfig,enumitem}
+\usepackage{multicol,graphicx,fancyhdr,eso-pic,url,float,lmodern,listings,times,textcomp,amsthm,amsmath,amssymb,mathptmx,dsfont,color,colortbl,sidecap,xspace,epic,eepic,anysize,setspace,hyperref,pdflscape,subfigure,gensymb,siunitx,caption,subcaption,wrapfig,enumitem}
 
 % Python SQL C++ HTML Matlab
 \lstset{
@@ -41,7 +53,7 @@
 	\author{
 		Matias Johan Toro Núñez\\
 		matiasjohan.toro@alumnos.ulagos.cl\\\\
-		Álvaro Benjamín Ibáñez Cisternas\\
+		Alvaro Benjamín Ibáñez Cisternas\\
 		alvarobenjamin.@alumnos.ulagos.cl
 	\vspace{3cm}}
 	
@@ -82,7 +94,7 @@
 		\item \textbf{Como se prueba: }La prueba del fraude al fisco suele incluir: Documentación contable y financiera manipulada, auditorías que detectan irregularidades en las cuentas públicas, testimonios o confesiones de involucrados, informes de contraloría o entidades fiscalizadoras.\\
 		\newpage
 		
-		\item \textbf{Casos: }El caso del abogado Juan Agustín Buzeta Novoa es un ejemplo paradigmático de las críticas hacia la conducta legal y ética de ciertas autoridades públicas. Contratado en 2013 por el alcalde de Pirque, Cristian Balmaceda Undurraga, a pesar de enfrentar desde 2012 un proceso judicial seguido por la Fiscalía de San Felipe y querellas de concejales de Zapallar y del Consejo de Defensa del Estado, este caso de fraude al Fisco concluyó con su condena por delitos reiterados contra el Fisco, conforme al artículo 239 del Código Penal chileno. La sentencia, ratificada tras el rechazo de un recurso de nulidad por la Corte Suprema, destacó que el delito constituye una estafa calificada donde el funcionario público utiliza su posición para cometer el fraude sin requerir un ardid especial, prevaleciendo la mala fe o abuso de confianza. En el ámbito civil, se acogió la demanda de indemnización de perjuicios presentada por el Consejo de Defensa del Estado, y se evidenció cómo otros municipios contrataron al abogado, lo que sugiere la existencia de una red de protección de la corrupción pública.\\
+		\item \textbf{Casos: }El caso del abogado Juan Agustín Buzeta Novoa es un ejemplo paradigmático de las críticas hacia la conducta legal y ética de ciertas autoridades públicas. Contratado en 2013 por el alcalde de Pirque, Cristian Balmaceda Undurraga, a pesar de enfrentar desde 2012 un proceso judicial seguido por la Fiscalía de San Felipe y querellas de concejales de Zapallar y del Consejo de Defensa del Estado, este caso de fraude al Fisco concluyó con su condena por delitos reiterados contra el Fisco, conforme al artículo 239 del Código Penal chileno. La sentencia, ratificada tras el rechazo de un recurso de nulidad por la Corte Suprema, destacó que el delito constituye una estafa calificada donde el funcionario público utiliza su posición para cometer el fraude sin requerir un ardid especial, prevaleciendo la mala fe o abuso de confianza. En el ámbito civil, se acogió la demanda de indemnización de perjuicios presentada por el Consejo de Defensa del Estado, y se evidenció cómo otros municipios contrataron al abogado, lo que sugiere la existencia de una red de protección de la corrupción pública.\cite{fraudealfisco}\\
 		
 		\item \textbf{Aporte: }El fraude al fisco afecta gravemente la confianza pública y el desarrollo de programas sociales. La creación de la institución de la contralaría General de la República busca prevenir este tipo de delitos.\\
 	\end{itemize}
@@ -101,7 +113,7 @@
 		
 		\item \textbf{Como se prueba: }Las auditorías fiscales son herramientas clave para identificar desvíos de fondos, comparando los registros contables oficiales con el uso real  de los recursos. En algunos casos, se realizan inspecciones in situ para verificar si los bienes o fondos fueron aplicados correctamente. También se analizan transferencias bancarias, contratos y documentación que respalde la asignación de recursos. La declaración de testigos o colaboradores puede ser crucial para desenmascarar redes de complicidad dentro de las instituciones.\\
 		
-		\item \textbf{Casos: }El caso de malversación de caudales públicos que involucra a Gastón Bernabé Delgado Álvarez tiene lugar por la no rendición de cuenta conforme de \$22.409.433, entregados por el FOSIS entre los años 1999 a 2001 a la Consultora “REDUWORK LTDA”, de la que el condenado era representante legal, para el desarrollo de proyectos sociales. Según un informe de la Contraloría Regional de Los Lagos, los fondos no fueron utilizados según lo estipulado, presentándose irregularidades como la falta de respaldo documental, asignaciones a personas no elegibles, adulteración de comprobantes y discrepancias entre los gastos declarados y los previstos en los proyectos. La modalidad de contratos a suma alzada no eximía a REDUWORK de rendir cuentas detalladas, como lo exige el contrato firmado con el FOSIS, el cual facultaba auditorías para verificar el uso adecuado de los fondos. El tribunal concluyó que Delgado Álvarez incurrió en el delito de apropiación indebida, tipificado en el artículo 470 N°1 del Código Penal, al no justificar ni restituir los dineros recibidos, configurando una gestión desleal y causando perjuicio al patrimonio público. La sentencia también subraya que el delito no requiere demostrar la incorporación de los fondos al patrimonio personal del acusado, sino la distracción de los mismos de su propósito original.\\
+		\item \textbf{Casos: }El caso de malversación de caudales públicos que involucra a Gastón Bernabé Delgado Álvarez tiene lugar por la no rendición de cuenta conforme de \$22.409.433, entregados por el FOSIS entre los años 1999 a 2001 a la Consultora “REDUWORK LTDA”, de la que el condenado era representante legal, para el desarrollo de proyectos sociales. Según un informe de la Contraloría Regional de Los Lagos, los fondos no fueron utilizados según lo estipulado, presentándose irregularidades como la falta de respaldo documental, asignaciones a personas no elegibles, adulteración de comprobantes y discrepancias entre los gastos declarados y los previstos en los proyectos. La modalidad de contratos a suma alzada no eximía a REDUWORK de rendir cuentas detalladas, como lo exige el contrato firmado con el FOSIS, el cual facultaba auditorías para verificar el uso adecuado de los fondos. El tribunal concluyó que Delgado Álvarez incurrió en el delito de apropiación indebida, tipificado en el artículo 470 N°1 del Código Penal, al no justificar ni restituir los dineros recibidos, configurando una gestión desleal y causando perjuicio al patrimonio público. La sentencia también subraya que el delito no requiere demostrar la incorporación de los fondos al patrimonio personal del acusado, sino la distracción de los mismos de su propósito original.\cite{malversacion}\\
 		
 		\item \textbf{Aporte: }La implementación de sistemas de control más estrictos, como auditorías internas regulares y la digitalización de procesos financieros, puede reducir significativamente los riesgos de malversación. Además, la capacitación continua en temas de transparencia y ética para los funcionarios públicos es una estrategia preventiva efectiva.\\
 	\end{itemize}
@@ -114,7 +126,7 @@
 		
 		\item \textbf{Como se prueba: }Para probar el cohecho se analizan registros de transacciones financieras, comunicaciones electrónicas (correos, mensajes) y grabaciones que evidencien acuerdos ilícitos. Testimonios de testigos clave y declaraciones de colaboradores que participan en investigaciones pueden ser determinantes. En muchos casos, la cooperación internacional es necesaria, especialmente si los fondos o beneficios involucrados tienen origen en el extranjero.\\
 		
-		\item \textbf{Casos: }El caso que involucra al alcalde de Recoleta, Óscar Daniel Jadue Jadue, y otros imputados, destaca por la gravedad de los delitos formalizados, entre ellos administración desleal, estafa, fraude al fisco, malversación de caudales públicos y cohecho. En una audiencia realizada el 3 de junio, el 3° Juzgado de Garantía de Santiago decretó prisión preventiva para Jadue y José Matías Muñoz Becerra, considerando que su libertad representa un peligro para la sociedad y el patrimonio público. Según la magistrada Paulina Moya Jiménez, la gravedad de las penas asociadas, que van desde 541 días hasta 15 años de cárcel, y el riesgo de reiteración de los delitos justifican la medida cautelar. Además, se resaltó que varios de estos delitos afectan la confianza en la función pública, al comprometer principios de transparencia y rectitud en la administración de recursos. Otros imputados recibieron medidas cautelares como arresto domiciliario, arraigo nacional y prohibición de contacto con coimputados, dependiendo de su nivel de implicación. Este caso subraya la importancia de la fiscalización y probidad en la gestión de fondos públicos.\\
+		\item \textbf{Casos: }El caso que involucra al alcalde de Recoleta, Óscar Daniel Jadue Jadue, y otros imputados, destaca por la gravedad de los delitos formalizados, entre ellos administración desleal, estafa, fraude al fisco, malversación de caudales públicos y cohecho. En una audiencia realizada el 3 de junio, el 3° Juzgado de Garantía de Santiago decretó prisión preventiva para Jadue y José Matías Muñoz Becerra, considerando que su libertad representa un peligro para la sociedad y el patrimonio público. Según la magistrada Paulina Moya Jiménez, la gravedad de las penas asociadas, que van desde 541 días hasta 15 años de cárcel, y el riesgo de reiteración de los delitos justifican la medida cautelar. Además, se resaltó que varios de estos delitos afectan la confianza en la función pública, al comprometer principios de transparencia y rectitud en la administración de recursos. Otros imputados recibieron medidas cautelares como arresto domiciliario, arraigo nacional y prohibición de contacto con coimputados, dependiendo de su nivel de implicación. Este caso subraya la importancia de la fiscalización y probidad en la gestión de fondos públicos.\cite{cohecho}\\
 		
 		\item \textbf{Aporte: }El cohecho no solo socava la legitimidad de las instituciones públicas, sino que también genera un entorno propicio para la corrupción, afectando negativamente el desarrollo económico y la confianza ciudadana. Este delito distorsiona los procesos de toma de decisiones, priorizando intereses privados por encima del bien estar colectivo, lo que puede derivar en el mal uso de los recursos públicos y en la implementación de políticas ineficientes o perjudiciales para la población. Para combatir el cohecho, es fundamental implementar políticas de transparencia activa que obliguen a los organismos públicos y privados a publicar información detallada sobre contrataciones, licitaciones y conflictos de interés. Estudios de la Organización para la Cooperación y el Desarrollo Económicos (OCDE) señalan que países con altos niveles de corrupción suelen enfrentar mayores costos en la ejecución de proyectos públicos y menores tasas de inversión extranjera. En Chile, la implementación de programas como la la ley de lobby y la agenda anti corrupción ha buscado abordar estas problemáticas, pero persisten desafíos en su cumplimiento y fiscalización.\\
 	\end{itemize}
@@ -127,7 +139,7 @@
 		
 		\item \textbf{Como se prueba: }Para demostrar la falsificación de un instrumento público, se realizan peritajes especializados que analizan la autenticidad del documento, como estudios caligráficos, análisis de tintas y revisiones de sellos oficiales. También se comparan los documentos cuestionados con los originales almacenados en registros oficiales. La declaración de los funcionarios responsables de emitir o custodiar los documentos originales es crucial para determinar si hubo alteración o falsificación.\\
 		
-		\item \textbf{Casos: }El caso del alcalde de San Ignacio, César Alberto Figueroa Betancourt, resalta por los delitos imputados de cohecho, fraude al fisco, falsificación de instrumento público y malversación de caudales públicos, relacionados con procesos de licitación de cuentas bancarias del municipio. Tras permanecer más de ocho meses en prisión preventiva, la Corte de Apelaciones de Chillán revocó la medida y ordenó su arresto domiciliario total, arraigo nacional y la prohibición de comunicarse con coimputados o acercarse a la municipalidad. El tribunal consideró que no existían nuevas diligencias relevantes que justificaran prolongar la prisión preventiva y que las medidas cautelares alternativas eran suficientes para asegurar los fines del procedimiento, destacando además la falta de antecedentes previos del imputado. La investigación, que incluyó interceptaciones telefónicas y seguimientos, reveló la presunta concertación entre Figueroa y un empresario para adjudicar de forma irregular procesos de licitación municipal.\\
+			\item \textbf{Casos: }El caso del alcalde de San Ignacio, César Alberto Figueroa Betancourt, resalta por los delitos imputados de cohecho, fraude al fisco, falsificación de instrumento público y malversación de caudales públicos, relacionados con procesos de licitación de cuentas bancarias del municipio. Tras permanecer más de ocho meses en prisión preventiva, la Corte de Apelaciones de Chillán revocó la medida y ordenó su arresto domiciliario total, arraigo nacional y la prohibición de comunicarse con coimputados o acercarse a la municipalidad. El tribunal consideró que no existían nuevas diligencias relevantes que justificaran prolongar la prisión preventiva y que las medidas cautelares alternativas eran suficientes para asegurar los fines del procedimiento, destacando además la falta de antecedentes previos del imputado. La investigación, que incluyó interceptaciones telefónicas y seguimientos, reveló la presunta concertación entre Figueroa y un empresario para adjudicar de forma irregular procesos de licitación municipal.\cite{Falsificacion}\\
 		
 		\item \textbf{Aporte: }Este delito pone en peligro la seguridad jurídica, ya que documentos falsos pueden ser utilizados para despojar a personas de sus bienes o justificar acciones ilegales. Una medida preventiva clave es la implementación de sistemas digitales de verificación de documentos públicos, los cuales dificultan la falsificación y permiten una rápida validación de autenticidad.\\
 	\end{itemize}
@@ -141,7 +153,7 @@
 		
 		\item \textbf{Como se prueba: }La investigación del lavado de activos requiere un análisis exhaustivo de movimientos financieros, identificando patrones sospechosos o transferencias inusuales que no se justifican con las actividades económicas declaradas. Las entidades como la Unidad de Análisis Financiero (UAF) desempeñan un rol fundamental al detectar y reportar operaciones sospechosas. La cooperación internacional es vital cuando los fondos se mueven a través de múltiples jurisdicciones. Además, las declaraciones de testigos protegidos o colaboradores pueden ser determinantes para vincular los activos a actividades ilícitas.\\
 		
-		\item \textbf{Casos: }El caso de Juan Ramón Godoy Muñoz, ex alcalde de Rancagua, alcalde de Rancagua en el momento que se estaban cometiendo los delitos, se centra en graves delitos como malversación de caudales públicos, fraude al fisco, lavado de activos, delitos tributarios y cohecho agravado reiterado, supuestamente cometidos desde 2021. En la audiencia de revisión de medidas cautelares, el Juzgado de Garantía de Rancagua decidió mantener su prisión preventiva, argumentando que su libertad representa un peligro tanto para la sociedad como para el éxito de la investigación.\\ El tribunal consideró que la gravedad de las penas que enfrenta el imputado justifica la medida cautelar, pese al tiempo transcurrido desde su privación de libertad. Según la acusación, Godoy Muñoz habría facilitado tratos irregulares, como la adjudicación directa de contratos sin justificación, la omisión en el cobro de multas, y el pago por obras no ejecutadas, lo que resultó en ingresos ilícitos y un daño significativo al patrimonio fiscal.\\
+		\item \textbf{Casos: }El caso de Juan Ramón Godoy Muñoz, ex alcalde de Rancagua, alcalde de Rancagua en el momento que se estaban cometiendo los delitos, se centra en graves delitos como malversación de caudales públicos, fraude al fisco, lavado de activos, delitos tributarios y cohecho agravado reiterado, supuestamente cometidos desde 2021. En la audiencia de revisión de medidas cautelares, el Juzgado de Garantía de Rancagua decidió mantener su prisión preventiva, argumentando que su libertad representa un peligro tanto para la sociedad como para el éxito de la investigación.\\ El tribunal consideró que la gravedad de las penas que enfrenta el imputado justifica la medida cautelar, pese al tiempo transcurrido desde su privación de libertad. Según la acusación, Godoy Muñoz habría facilitado tratos irregulares, como la adjudicación directa de contratos sin justificación, la omisión en el cobro de multas, y el pago por obras no ejecutadas, lo que resultó en ingresos ilícitos y un daño significativo al patrimonio fiscal.\cite{LavadoActivos}\\
 		
 		\item \textbf{Aporte: }El lavado de activos representa una amenaza significativa para la estabilidad económica y financiera de un país, ya que permite que los delincuentes sigan operando con impunidad. El fortalecimiento de la legislación, junto con la capacitación de personal en instituciones financieras, y la promoción de acuerdos internacionales para el intercambio de información, son esenciales para erradicar este tipo de delitos.\\
 	\end{itemize}
@@ -154,12 +166,75 @@
 		
 		\item \textbf{Como se prueba: }Al igual que algunos de los delitos mencionados, la detección de irregularidades se realiza mediante auditorías internas o externas, análisis de cumplimiento normativo y revisiones de procesos administrativos. Los registros contables y documentales son clave para identificar desviaciones respecto a lo establecido. Las declaraciones de empleados, supervisores o auditores pueden complementar las pruebas documentales y arrojar luz sobre las causas de las irregularidades.\\
 		
-		\item \textbf{Casos: }El caso relacionado con irregularidades en el cierre de un patio de comidas en Santiago destaca por la decisión de la Corte de Apelaciones de ordenar un nuevo pronunciamiento por parte de la Municipalidad. Esto ocurre tras un reclamo de ilegalidad presentado por el propietario del terreno, quien solicitó dejar sin efecto el decreto de clausura alegando que el lugar estaba vacío y carecía de construcciones que justificaran la medida.\\ El tribunal determinó que los actos administrativos previos, incluidos el decreto municipal y la carta del administrador, carecían de fundamentación y violaban principios fundamentales como la igualdad, imparcialidad y celeridad. Además, señaló que las limitaciones al derecho de propiedad deben ser específicas, justificadas y respetar su esencia, lo que no se cumplió en este caso.\\ Finalmente, la Corte revocó las decisiones administrativas, condenó en costas a la Municipalidad y reconoció el derecho del reclamante a reclamar perjuicios conforme a la Ley 18.695. Esto subraya la importancia de la legalidad y fundamentación en las decisiones administrativas, especialmente cuando afectan derechos fundamentales como la propiedad.\\
+		\item \textbf{Casos: }El caso relacionado con irregularidades en el cierre de un patio de comidas en Santiago destaca por la decisión de la Corte de Apelaciones de ordenar un nuevo pronunciamiento por parte de la Municipalidad. Esto ocurre tras un reclamo de ilegalidad presentado por el propietario del terreno, quien solicitó dejar sin efecto el decreto de clausura alegando que el lugar estaba vacío y carecía de construcciones que justificaran la medida.\\ El tribunal determinó que los actos administrativos previos, incluidos el decreto municipal y la carta del administrador, carecían de fundamentación y violaban principios fundamentales como la igualdad, imparcialidad y celeridad. Además, señaló que las limitaciones al derecho de propiedad deben ser específicas, justificadas y respetar su esencia, lo que no se cumplió en este caso.\\ Finalmente, la Corte revocó las decisiones administrativas, condenó en costas a la Municipalidad y reconoció el derecho del reclamante a reclamar perjuicios conforme a la Ley 18.695. Esto subraya la importancia de la legalidad y fundamentación en las decisiones administrativas, especialmente cuando afectan derechos fundamentales como la propiedad.\cite{Irregularidades}\\
 		
 		\item \textbf{Aporte: }La prevención de irregularidades pasa por la implementación de sistemas de control interno sólidos, que incluyan auditorías regulares y capacitaciones para el personal. Además, la adopción de tecnologías como sistemas electrónicos de gestión de contratos o licitaciones puede aumentar la transparencia y reducir el margen de error o manipulación en procesos administrativos.\\
 	\end{itemize}
 	\newpage
+	\section{Resumen}
+	En la siguiente tabla se resumen cada delito con los diferentes puntos investigados, tales como: definición del concepto del delito investigado, que dice el código penal, las pruebas para acusar sobre este delito y algún caso relacionado.
 	
-	\section{Conclusión}
+	\begin{longtable}{|p{3cm}|p{12cm}|}
+		\hline
+		\textbf{Delito} & \textbf{Descripción} \\
+		\hline
+		Fraude al Fisco &
+		\textbf{Definición:} Acto deliberado de proporcionar información falsa, omitir datos o realizar operaciones fraudulentas para evadir o reducir el pago de impuestos. \\
+		\cline{2-2}
+		& \textbf{Código Penal:} Artículo 239 del Código Penal Chileno. Sanción con presidio menor en su grado medio a máximo (541 días a 5 años) y multa entre el 50\% y el 100\% del daño causado. \\
+		\cline{2-2}
+		& \textbf{Prueba:} Documentación contable manipulada, auditorías, testimonios, informes de contraloría. \\
+		\cline{2-2}
+		& \textbf{Caso:} Juan Agustín Buzeta Novoa, condenado por delitos reiterados contra el Fisco. \\
+		\hline
+		Malversación de Caudales Públicos &
+		\textbf{Definición:} Uso indebido de fondos públicos para fines no autorizados. \\
+		\cline{2-2}
+		& \textbf{Código Penal:} Artículo 233 del Código Penal Chileno. Presidió mayor (5 años y un día a 10 años) y multa correspondiente al monto sustraído. \\
+		\cline{2-2}
+		& \textbf{Prueba:} Auditorías fiscales, inspecciones in situ, análisis de transferencias bancarias, declaraciones de testigos. \\
+		\cline{2-2}
+		& \textbf{Caso:} Gastón Bernabé Delgado Álvarez, condenado por apropiación indebida de fondos entregados por FOSIS. \\
+		\hline
+		Cohecho &
+		\textbf{Definición:} Acto de ofrecer, solicitar o aceptar un beneficio indebido para influir en decisiones o actuaciones de un funcionario. \\
+		\cline{2-2}
+		& \textbf{Código Penal:} Artículos 248 a 251 bis del Código Penal Chileno. Sanciones incluyen presidio menor en su grado medio a máximo y multas hasta el triple del beneficio otorgado o recibido. \\
+		\cline{2-2}
+		& \textbf{Prueba:} Registros de transacciones financieras, comunicaciones electrónicas, grabaciones, testimonios de testigos. \\
+		\cline{2-2}
+		& \textbf{Caso:} Óscar Daniel Jadue Jadue, alcalde de Recoleta, implicado en varios delitos, incluido cohecho. \\
+		\hline
+		Falsificación de Instrumento Público &
+		\textbf{Definición:} Alterar, modificar o crear un documento público con intención de engañar o causar perjuicio. \\
+		\cline{2-2}
+		& \textbf{Código Penal:} Artículo 193 del Código Penal Chileno. Penas de presidio menor en su grado máximo a presidio mayor en su grado mínimo (3 años y un día a 10 años). \\
+		\cline{2-2}
+		& \textbf{Prueba:} Peritajes especializados, estudios caligráficos, análisis de tintas, revisiones de sellos oficiales. \\
+		\cline{2-2}
+		& \textbf{Caso:} César Alberto Figueroa Betancourt, alcalde de San Ignacio, imputado por falsificación de instrumento público. \\
+		\hline
+		Lavado de Activos &
+		\textbf{Definición:} Ocultar o disfrazar el origen ilícito de bienes o dinero para hacerlos parecer legales. \\
+		\cline{2-2}
+		& \textbf{Código Penal:} Ley Nř 19.913, sanciones de presidio menor en su grado máximo a presidio mayor en su grado mínimo (3 años y un día a 10 años) y multas hasta el valor total de los activos lavados. \\
+		\cline{2-2}
+		& \textbf{Prueba:} Análisis de movimientos financieros, detección de patrones sospechosos, cooperación internacional. \\
+		\cline{2-2}
+		& \textbf{Caso:} Juan Ramón Godoy Muñoz, ex alcalde de Rancagua, implicado en lavado de activos y otros delitos. \\
+		\hline
+		Irregularidades &
+		\textbf{Definición:} Acciones u omisiones que infringen normas o procedimientos establecidos, no siempre constituyen un delito. \\
+		\cline{2-2}
+		& \textbf{Código Penal:} Pueden derivar en sanciones penales si configuran delitos como fraude al fisco, malversación de fondos o cohecho. \\
+		\cline{2-2}
+		& \textbf{Prueba:} Auditorías internas o externas, análisis de cumplimiento normativo, revisiones de procesos administrativos. \\
+		\cline{2-2}
+		& \textbf{Caso:} Irregularidades en el cierre de un patio de comidas en Santiago, orden de un nuevo pronunciamiento por parte de la Municipalidad. \\
+		\hline
+	\end{longtable}
+	\section*{Conclusión}
 	En conclusión, los delitos como el fraude al fisco, la malversación de caudales públicos, el cohecho, la falsificación de instrumentos públicos, el lavado de activos e irregularidades en la gestión pública constituyen graves amenazas para la integridad de las instituciones y el bienestar de la sociedad. Estos ilícitos no solo afectan la confianza pública y la transparencia, sino que también desvían recursos que podrían ser destinados a mejorar la calidad de vida de los ciudadanos.Se requieren reformas legales, el fortalecimiento de los mecanismos de control y la implementación de tecnologías que faciliten la detección y prevención de conductas ilícitas para disminuir y eliminar estos delitos. Además, es crucial fomentar una cultura de ética y responsabilidad tanto en el sector público como en el privado, promoviendo la participación ciudadana y el uso de herramientas de denuncia segura. A través de la colaboración entre autoridades, instituciones y la sociedad, es posible reducir la prevalencia de estos delitos y restaurar la confianza en las instituciones, contribuyendo así a un sistema más justo, transparente y equitativo y eliminando la corrupción, o por lo menos disminuyendo su intervención.
-\end{document}
+	\newpage
+	\printbibliography[heading=bibintoc, title=Referencias]
+	\end{document}

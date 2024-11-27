@@ -1,0 +1,209 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{fraudealfisco}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=35ff87847c719b93da392a79e2499031}{%
+           family={Penal},
+           familyi={P\bibinitperiod},
+           given={Corte\bibnamedelimb Suprema\bibnamedelimb -\bibnamedelima Derecho},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{35ff87847c719b93da392a79e2499031}
+      \strng{fullhash}{35ff87847c719b93da392a79e2499031}
+      \strng{fullhashraw}{35ff87847c719b93da392a79e2499031}
+      \strng{bibnamehash}{35ff87847c719b93da392a79e2499031}
+      \strng{authorbibnamehash}{35ff87847c719b93da392a79e2499031}
+      \strng{authornamehash}{35ff87847c719b93da392a79e2499031}
+      \strng{authorfullhash}{35ff87847c719b93da392a79e2499031}
+      \strng{authorfullhashraw}{35ff87847c719b93da392a79e2499031}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fraude al Fisco}
+      \field{year}{07-febrero-2018}
+      \field{pages}{1\bibrangedash 30}
+      \range{pages}{30}
+      \verb{urlraw}
+      \verb https://biblio.dpp.cl/datafiles/16254.pdf
+      \endverb
+      \verb{url}
+      \verb https://biblio.dpp.cl/datafiles/16254.pdf
+      \endverb
+    \endentry
+    \entry{malversacion}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=35ff87847c719b93da392a79e2499031}{%
+           family={Penal},
+           familyi={P\bibinitperiod},
+           given={Corte\bibnamedelimb Suprema\bibnamedelimb -\bibnamedelima Derecho},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{35ff87847c719b93da392a79e2499031}
+      \strng{fullhash}{35ff87847c719b93da392a79e2499031}
+      \strng{fullhashraw}{35ff87847c719b93da392a79e2499031}
+      \strng{bibnamehash}{35ff87847c719b93da392a79e2499031}
+      \strng{authorbibnamehash}{35ff87847c719b93da392a79e2499031}
+      \strng{authornamehash}{35ff87847c719b93da392a79e2499031}
+      \strng{authorfullhash}{35ff87847c719b93da392a79e2499031}
+      \strng{authorfullhashraw}{35ff87847c719b93da392a79e2499031}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Corte de Apelaciones de Valdivia Contra Delgado Álvarez, Gastón}
+      \field{year}{3-julio-2009}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://drive.google.com/file/d/1lK5NSLNJOd9S86U5e5Jl_4QfbnQgNplc/view?usp=drive_link
+      \endverb
+      \verb{url}
+      \verb https://drive.google.com/file/d/1lK5NSLNJOd9S86U5e5Jl_4QfbnQgNplc/view?usp=drive_link
+      \endverb
+    \endentry
+    \entry{cohecho}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6d9b6850da13bf4b25c1f179693897df}{%
+           family={Judicial},
+           familyi={J\bibinitperiod},
+           given={Poder},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{fullhash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{fullhashraw}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{bibnamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorbibnamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authornamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorfullhash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorfullhashraw}{6d9b6850da13bf4b25c1f179693897df}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{3° Juzgado de Garantía de Santiago deja en prisión preventiva a alcalde de Recoleta por administración desleal, estafa y fraude al fisco}
+      \field{year}{03-junio-2024}
+      \verb{urlraw}
+      \verb https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/110088
+      \endverb
+      \verb{url}
+      \verb https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/110088
+      \endverb
+    \endentry
+    \entry{Falsificacion}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6d9b6850da13bf4b25c1f179693897df}{%
+           family={Judicial},
+           familyi={J\bibinitperiod},
+           given={Poder},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{fullhash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{fullhashraw}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{bibnamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorbibnamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authornamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorfullhash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorfullhashraw}{6d9b6850da13bf4b25c1f179693897df}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Corte de Apelaciones de Chillán ordena el arresto domiciliario total de alcalde de San Ignacio}
+      \field{year}{21-diciembre-2023}
+      \verb{urlraw}
+      \verb https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/103003
+      \endverb
+      \verb{url}
+      \verb https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/103003
+      \endverb
+    \endentry
+    \entry{LavadoActivos}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6d9b6850da13bf4b25c1f179693897df}{%
+           family={Judicial},
+           familyi={J\bibinitperiod},
+           given={Poder},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{fullhash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{fullhashraw}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{bibnamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorbibnamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authornamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorfullhash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorfullhashraw}{6d9b6850da13bf4b25c1f179693897df}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Juzgado de Garantía de Rancagua confirma la prisión preventiva de ex alcalde de la comuna}
+      \field{year}{06-septiembre-2024}
+      \verb{urlraw}
+      \verb https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/114747
+      \endverb
+      \verb{url}
+      \verb https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/114747
+      \endverb
+    \endentry
+    \entry{Irregularidades}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6d9b6850da13bf4b25c1f179693897df}{%
+           family={Judicial},
+           familyi={J\bibinitperiod},
+           given={Poder},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{fullhash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{fullhashraw}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{bibnamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorbibnamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authornamehash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorfullhash}{6d9b6850da13bf4b25c1f179693897df}
+      \strng{authorfullhashraw}{6d9b6850da13bf4b25c1f179693897df}
+      \field{extraname}{4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Corte de Santiago ordena a municipalidad emitir nuevo pronunciamiento sobre cierre de patio de comida}
+      \field{year}{24-octubre-2024}
+      \verb{urlraw}
+      \verb https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/116845
+      \endverb
+      \verb{url}
+      \verb https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/116845
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
