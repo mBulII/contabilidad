@@ -1,0 +1,103 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{margarita1}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Los 3 alcaldes indagados por presuntos casos de corrupción tras elecciones municipales en Valparaíso}
+      \verb{urlraw}
+      \verb https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2024/10/29/los-3-alcaldes-indagados-por-presuntos-casos-de-corrupcion-tras-elecciones-municipales-en-valparaiso.shtml
+      \endverb
+      \verb{url}
+      \verb https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2024/10/29/los-3-alcaldes-indagados-por-presuntos-casos-de-corrupcion-tras-elecciones-municipales-en-valparaiso.shtml
+      \endverb
+      \warn{\item online entry 'margarita1' (bibliography.bib): Invalid format '29-octubre-2024' of date field 'date' - ignoring}
+    \endentry
+    \entry{margarita2}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Insólito: una alcaldesa chilena presidió el Concejo Municipal con una muñeca}
+      \verb{urlraw}
+      \verb https://www.infobae.com/america/america-latina/2024/09/05/insolito-una-alcaldesa-chilena-presidio-el-concejo-municipal-con-una-muneca/
+      \endverb
+      \verb{url}
+      \verb https://www.infobae.com/america/america-latina/2024/09/05/insolito-una-alcaldesa-chilena-presidio-el-concejo-municipal-con-una-muneca/
+      \endverb
+      \warn{\item online entry 'margarita2' (bibliography.bib): Invalid format '05-Septiembre-2024' of date field 'date' - ignoring}
+    \endentry
+    \entry{margarita3}{online}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Alcaldesa de Nogales es imputada por estafa: Buscará reelección municipal}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=4NMl1MW09cE
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=4NMl1MW09cE
+      \endverb
+      \warn{\item online entry 'margarita3' (bibliography.bib): Invalid format '23-Julio-2024' of date field 'date' - ignoring}
+    \endentry
+    \entry{oscar1}{online}{}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Condenan a pagar 221 millones y a 5 años de libertad vigilada a ex alcalde de Nogales por hechos de corrupción}
+      \verb{urlraw}
+      \verb https://www.soychile.cl/Quillota/Sociedad/2019/03/15/585998/Declaran-culpable-a-ex-alcalde-de-Nogales-y-otros-funcionarios-por-hechos-de-corrupcion.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.soychile.cl/Quillota/Sociedad/2019/03/15/585998/Declaran-culpable-a-ex-alcalde-de-Nogales-y-otros-funcionarios-por-hechos-de-corrupcion.aspx
+      \endverb
+      \warn{\item online entry 'oscar1' (bibliography.bib): Invalid format '23-Marzo-2019' of date field 'date' - ignoring}
+    \endentry
+    \entry{oscar2}{online}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Corrupción en Nogales: ex alcalde Cortés fue condenado a pagar millonaria multa, pero en libertad}
+      \verb{urlraw}
+      \verb https://puranoticia.pnt.cl/noticias/regiones/corrupcion-en-nogales-ex-alcalde-cortes-fue-condenado-a-pagar/2019-03-24/093850.html
+      \endverb
+      \verb{url}
+      \verb https://puranoticia.pnt.cl/noticias/regiones/corrupcion-en-nogales-ex-alcalde-cortes-fue-condenado-a-pagar/2019-03-24/093850.html
+      \endverb
+      \warn{\item online entry 'oscar2' (bibliography.bib): Invalid format '24-marzo-2019' of date field 'date' - ignoring}
+    \endentry
+    \entry{oscar3}{online}{}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{Sentencian a cinco años de libertad vigilada y pago millonario a exalcalde de Nogales}
+      \verb{urlraw}
+      \verb https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2019/03/25/sentencian-a-cinco-anos-de-libertad-vigilada-y-pago-millonario-a-exalcalde-de-nogales.shtml
+      \endverb
+      \verb{url}
+      \verb https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2019/03/25/sentencian-a-cinco-anos-de-libertad-vigilada-y-pago-millonario-a-exalcalde-de-nogales.shtml
+      \endverb
+      \warn{\item online entry 'oscar3' (bibliography.bib): Invalid format '25-marzo-2019' of date field 'date' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

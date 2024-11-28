@@ -5,8 +5,19 @@
 \usepackage[makeroom]{cancel}
 \usepackage[export]{adjustbox}
 \usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage[
+backend=biber,
+style=ieee,
+minnames=1,
+maxcitenames=2, maxbibnames=6
+]{biblatex}
+\DefineBibliographyStrings{spanish}{%
+	url = {[En línea]. Disponible en:},
+}
+\addbibresource{bibliography.bib}
 %\usepackage[none]{hyphenat}
-\usepackage{multicol,graphicx,fancyhdr,eso-pic,url,float,cite,lmodern,listings,times,textcomp,amsthm,amsmath,amssymb,mathptmx,dsfont,color,colortbl,sidecap,xspace,epic,eepic,anysize,setspace,hyperref,pdflscape,subfigure,gensymb,siunitx,caption,subcaption,wrapfig,enumitem}
+\usepackage{multicol,graphicx,fancyhdr,eso-pic,url,float,lmodern,listings,times,textcomp,amsthm,amsmath,amssymb,mathptmx,dsfont,color,colortbl,sidecap,xspace,epic,eepic,anysize,setspace,hyperref,pdflscape,subfigure,gensymb,siunitx,caption,subcaption,wrapfig,enumitem}
 
 % Python SQL C++ HTML Matlab
 \lstset{
@@ -42,7 +53,7 @@
 	\author{
 		Matias Johan Toro Núñez\\
 		matiasjohan.toro@alumnos.ulagos.cl \\\\
-		Álvaro Benjamín Ibáñez Cisternas\\
+		Alvaro Benjamín Ibáñez Cisternas\\
 		alvarobenjamin.@alumnos.ulagos.cl
 		%\and
 		%otro\\
@@ -70,31 +81,50 @@
 	\pagenumbering{arabic}
 	
 	\section{Primer Caso\\}
-	Margarita Osorio, alcaldesa independiente de la comuna de Nogales, se encuentra en el centro de una polémica tras ser formalizada por el delito de estafa. Su gestión como autoridad municipal quedó bajo cuestionamiento luego de conocerse denuncias que involucraban defraudaciones económicas a familias de escasos recursos. Actualmente, enfrenta arresto domiciliario total y arraigo nacional.\\
-	La Fiscalía presentó antecedentes que indican que Osorio, junto a otros dos imputados, implementó un esquema fraudulento para estafar a familias vulnerables y de medianos ingresos. Bajo la promesa de facilitar el acceso a la casa propia, solicitaban pagos de diversas sumas de dinero. Según los registros oficiales, la trama habría defraudado a dos comités de vivienda en Nogales y El Melón, generando un perjuicio económico total de aproximadamente 173 millones de pesos.\\
-	Margarita Osorio ha rechazado las acusaciones y calificó el proceso como una “campaña del terror” en su contra. Con este argumento, la alcaldesa intentando desmentir las acusaciones intenta jugar un rol de victima, sugiriendo que se trata de una estrategia política para desprestigiarla.\\\\
+		Margarita Osorio, ex-alcaldesa independiente de la comuna de Nogales, se encuentra en el centro de una polémica tras ser formalizada por el delito de estafa. Su gestión como autoridad municipal quedó bajo cuestionamiento luego de conocerse denuncias que involucraban defraudaciones económicas a familias de escasos recursos. Actualmente, enfrenta arresto domiciliario nocturno y arraigo nacional.\cite{margarita1}\\
+	\begin{wrapfigure}{r}{0.4\textwidth}
+		\centering
+		\includegraphics[width=0.4\textwidth]{figures/margarita-osorio}
+	\end{wrapfigure}
+	La Fiscalía presentó antecedentes que indican que Osorio, junto a otros dos imputados, implementó un esquema fraudulento para estafar a familias vulnerables y de medianos ingresos. Bajo la promesa de facilitar el acceso a la casa propia, solicitaban pagos de diversas sumas de dinero. Según los registros oficiales, la trama habría defraudado a dos comités de vivienda en Nogales y El Melón, generando un perjuicio económico total de aproximadamente 173 millones de pesos. Muchas familias de bajos recursos entregaron aportes iniciales superior a \$100.000 y continuamente fueron incrementando pidiendo más y más. Sin embargo, nunca se dio evidencias de algún progreso con lo planeado. Bajo investigaciones, el lugar determinado para construir las casas prometidas, no existía evidencias de trabajo en el lugar. Después de un tiempo, en el terreno se instalaron paneles solares. Mega en investigación habló con el dueño del terreno, el cual indicó que no había trato con la comuna en relación con los hogares prometidos. \cite{margarita2}\\
+	Margarita Osorio ha rechazado las acusaciones y calificó el proceso como una “campaña del terror” en su contra. Con este argumento, la alcaldesa intentando desmentir las acusaciones, busca jugar un rol de victima, sugiriendo que se trata de una estrategia política para desprestigiarla.\cite{margarita3}\\\\
+	Además de estas acusaciones,  también se le acusó de maltrato y acoso laboral a funcionarios del municipio. En el mes de abril del presente año, fue acusada de estar apostando, incumpliendo su arresto domiciliario y además la ley 19995 sobre la incapacidad de apostar que tienen los funcionarios públicos y municipales.
+	
 	
 	\subsection{Análisis del caso\\}
 	\subsubsection{Implicancias del caso}
-	El caso de Margarita Osorio refleja la fragilidad institucional y la vulnerabilidad de los grupos sociales más desprotegidos frente a posibles abusos de poder. Los montos y la naturaleza de las denuncias evidencian una seria brecha en la ética pública que afecta directamente la confianza de los ciudadanos en sus autoridades locales.\\
+	El caso de Margarita Osorio refleja la fragilidad institucional y la vulnerabilidad de los grupos sociales más desprotegidos frente a posibles abusos de poder. Los montos y la naturaleza de las denuncias evidencian una seria brecha en la ética pública que afecta directamente la confianza de los ciudadanos en sus autoridades locales. Esto se ve evidencia en sus conductas, las cuales no son de destacar en un alcalde. Es recurrente su lenguaje informal, siendo esto el menor de los problemas, puesto que en varias ocasiones ha llegado a proferir ofensas a nogalinos (residentes de nogales) y también a periodista o gente externa.\\
+	Fuera de su actitud despreciable por muchos, realiza actos humanitarios y sociales en la comuna, lo que le ha traído reconocimiento por parte de los residentes del sector y ha motivado a su postulación a la alcaldía nuevamente.
 	
-	\subsubsection{Estado actual del acusado}
-	Actualmente, Margarita Osorio enfrenta arresto domiciliario total y arraigo nacional, medidas decretadas por el Juzgado de Garantía de La Ligua. Estas sanciones provisionales estarán vigentes mientras avanza la investigación sobre su participación en el esquema de estafa.\\
+	\subsubsection{Estado actual del acusado/a}
+	Actualmente, Margarita Osorio enfrenta arresto domiciliario nocturno, el cual anteriormente había sido total y arraigo nacional, medidas decretadas por el Juzgado de Garantía de La Ligua. Estas sanciones provisionales estarán vigentes mientras avanza la investigación sobre su participación en el esquema de estafa. Sin embargo, aún no se encuentran pruebas contundentes para condenarla, aunque claramente se evidencia una falta clara en su compromiso con la gente que les prometió un hogar. Como mencionamos más arriba, este año se dieron a cabo las elecciones municipales, donde Margarita, decidió postularse nuevamente. Eso no es lo más sorprendente, sino que estuvo a pocos votos de quedarse nuevamente como la alcaldesa de nogales a pesar de las acusaciones en su contra. Como se puede ver en la siguiente imagen \ref{votacion}.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{figures/votaciones}
+		\caption{Votaciones finales comuna de Nogales}\label{votacion}
+	\end{figure}
 	
 	\subsubsection{Declaraciones}
-	La alcaldesa Margarita Osorio defendió su posición rechazando las acusaciones en su contra. Afirmó que está a la espera de los resultados del proceso judicial y calificó las denuncias como injustificadas. Concretamente, expresó que considera que las imputaciones forman parte de una estrategia para dañar su reputación. Su postura, aunque contundente, no presentó pruebas claras que refuten las acusaciones presentadas por la Fiscalía.
+	La alcaldesa Margarita Osorio defendió su posición rechazando las acusaciones en su contra. Afirmó que está a la espera de los resultados del proceso judicial y calificó las denuncias como injustificadas. Concretamente, expresó que considera que las imputaciones forman parte de una estrategia para dañar su reputación. Su postura, aunque contundente, no presentó pruebas claras que refuten las acusaciones presentadas por la Fiscalía. Además, siempre se justificó con dichos informales o comentarios fuera de lugar, incluso citando a Dios para justificar sus conductas.
 	
 	\section{Segundo Caso\\}
-	Óscar Cortés, exalcalde de Nogales, fue condenado por fraude al fisco debido a la utilización indebida de fondos públicos. Los hechos ocurrieron entre 2011 y 2013 y estuvieron relacionados con propaganda política financiada con recursos del municipio de la provincia de Quillota. Su condena incluye cinco años de libertad vigilada, el pago de \$221 millones, una multa mensual de 8 UTM, y la inhabilitación absoluta para ocupar cargos públicos.\\
-	La Fiscalía estableció que Cortés, junto a tres directivos municipales, utilizó fondos públicos de manera ilícita, desviándolos hacia actividades de propaganda política. Este caso, que involucró una suma significativa de recursos públicos, fue denunciado como un acto de corrupción que traicionó la confianza de la comunidad.\\
+	\begin{wrapfigure}{l}{0.3\textwidth}
+		\centering
+		\includegraphics[width=0.3\textwidth]{figures/oscar cortes}
+	\end{wrapfigure}
+	Óscar Cortés, ex-alcalde de Nogales, fue condenado por fraude al fisco debido a la utilización indebida de fondos públicos. Los hechos ocurrieron entre 2011 y 2013 y estuvieron relacionados con propaganda política financiada con recursos del municipio de la provincia de Quillota. Su condena incluye cinco años de libertad vigilada, el pago de \$221 millones, una multa mensual de 8 UTM, y la inhabilitación absoluta para ocupar cargos públicos.
+	La Fiscalía estableció que Cortés, junto a tres directivos municipales, utilizó fondos públicos de manera ilícita, desviándolos hacia actividades de propaganda política. Este caso, que involucró una suma significativa de recursos públicos, fue denunciado como un acto de corrupción que traicionó la confianza de la comunidad.\cite{oscar1}
 	
 	\subsection{Análisis del caso\\}
 	\subsubsection{Implicancias del caso}
-	El caso de Óscar Cortés representa una violación grave a los principios de probidad administrativa, al involucrar el uso de fondos públicos para fines personales y políticos. Este tipo de actos generan un daño profundo a la confianza de los ciudadanos en sus líderes locales y perpetúan la percepción de impunidad en los casos de corrupción. Irónicamente, años después, la alcaldesa Margarita Osorio, quien criticó la falta de cárcel en este caso, enfrentó acusaciones similares, destacando un patrón preocupante de mal manejo en la comuna de Nogales.\\
+	El caso de Óscar Cortés representa una violación grave a los principios de probidad administrativa, al involucrar el uso de fondos públicos para fines personales y políticos. Este tipo de actos generan un daño profundo a la confianza de los ciudadanos en sus líderes locales y perpetúan la percepción de impunidad en los casos de corrupción. Irónicamente, años después, la alcaldesa Margarita Osorio, quien criticó la falta de cárcel en este caso indicando que fue lo correcto que lo hayan privado de la alcaldía, enfrentó acusaciones similares, destacando un patrón preocupante de mal manejo en la comuna de Nogales y de una fuerte fiscalización ya habiendo sido presentado estos dos casos.\cite{oscar2}\\
 	
 	\subsubsection{Estado actual del acusado}
-	Óscar Cortés fue condenado a cinco años de libertad vigilada, lo que le permite evitar la cárcel. Además, se le ordenó el pago de \$221 millones al fisco, una multa de 8 UTM mensuales y la inhabilitación absoluta para ocupar cargos públicos durante el período de la condena. Estas sanciones buscan resarcir parcialmente el daño económico y proteger a la administración pública de futuros abusos.\\
+	Óscar Cortés fue condenado a cinco años de libertad vigilada, lo que le permite evitar la cárcel. Además, se le ordenó el pago de \$221 millones al fisco, una multa de 8 UTM mensuales y la inhabilitación absoluta para ocupar cargos públicos durante el período de la condena. Estas sanciones buscan resarcir parcialmente el daño económico y proteger a la administración pública de futuros abusos.\cite{oscar3}\\
 	
 	\subsubsection{Declaraciones}
 	Aunque no se cuenta con declaraciones oficiales de Cortés, es plausible suponer que buscó justificar sus acciones como parte de su gestión municipal o minimizar el impacto del fraude. Podría haber argumentado que las decisiones tomadas durante su administración estaban destinadas a beneficiar a la comunidad, aunque los hechos demuestren lo contrario.
+	
+	\newpage
+	\printbibliography[heading=bibintoc, title=Referencias]
 \end{document}
