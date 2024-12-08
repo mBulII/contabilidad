@@ -97,45 +97,6 @@
       \endverb
       \warn{\item online entry 'oscar3' (bibliography.bib): Invalid format '25-marzo-2019' of date field 'date' - ignoring}
     \endentry
-    \entry{miguel}{online}{}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labeltitlesource}{title}
-      \field{title}{El documento adulterado por el municipio de San Ramón para ocultar el uso de funcionarios en la campaña del alcalde}
-      \verb{urlraw}
-      \verb https://www.ciperchile.cl/2021/04/19/el-documento-adulterado-por-el-municipio-de-san-ramon-para-ocultar-el-uso-de-funcionarios-en-la-campana-del-alcalde/
-      \endverb
-      \verb{url}
-      \verb https://www.ciperchile.cl/2021/04/19/el-documento-adulterado-por-el-municipio-de-san-ramon-para-ocultar-el-uso-de-funcionarios-en-la-campana-del-alcalde/
-      \endverb
-      \warn{\item online entry 'miguel' (bibliography.bib): Invalid format '19-04-2021' of date field 'date' - ignoring}
-    \endentry
-    \entry{karen}{online}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labeltitlesource}{title}
-      \field{title}{Detención de Karen Rojo: a qué partido pertenecía, cuánto dinero robó y por qué estaba en Holanda}
-      \verb{urlraw}
-      \verb https://chile.as.com/actualidad/detencion-de-karen-rojo-a-que-partido-pertenecia-cuanto-dinero-robo-y-por-que-estaba-en-holanda-n/
-      \endverb
-      \verb{url}
-      \verb https://chile.as.com/actualidad/detencion-de-karen-rojo-a-que-partido-pertenecia-cuanto-dinero-robo-y-por-que-estaba-en-holanda-n/
-      \endverb
-      \warn{\item online entry 'karen' (bibliography.bib): Invalid format '13-Julio-2022' of date field 'date' - ignoring}
-    \endentry
-    \entry{freire}{online}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labeltitlesource}{title}
-      \field{title}{Municipio de San Felipe presenta querella criminal en contra de alcalde suspendido, 4 ex funcionarios y 2 ejecutivos de Citelum}
-      \verb{urlraw}
-      \verb https://www.elaconcagua.cl/2021/01/31/municipio-de-san-felipe-presenta-querella-criminal-en-contra-de-alcalde-suspendido-4-ex-funcionarios-y-2-ejecutivos-de-citelum/
-      \endverb
-      \verb{url}
-      \verb https://www.elaconcagua.cl/2021/01/31/municipio-de-san-felipe-presenta-querella-criminal-en-contra-de-alcalde-suspendido-4-ex-funcionarios-y-2-ejecutivos-de-citelum/
-      \endverb
-      \warn{\item online entry 'freire' (bibliography.bib): Invalid format '31-Enero-2021' of date field 'date' - ignoring}
-    \endentry
   \enddatalist
 \endrefsection
 \endinput

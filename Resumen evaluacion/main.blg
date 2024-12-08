@@ -1,0 +1,21 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'main.blg'
+[161] biber-MSWIN64:340> INFO - === 
+[213] Biber.pm:420> INFO - Reading 'main.bcf'
+[377] Biber.pm:994> INFO - Found 6 citekeys in bib section 0
+[400] Biber.pm:4463> INFO - Processing section 0
+[418] Biber.pm:4654> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[491] bibtex.pm:1713> INFO - LaTeX decoding ...
+[502] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[563] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[563] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[563] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[574] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[576] bbl.pm:779> INFO - Output to main.bbl
+[576] Biber.pm:131> WARN - online entry 'margarita1' (bibliography.bib): Invalid format '29-octubre-2024' of date field 'date' - ignoring
+[576] Biber.pm:131> WARN - online entry 'margarita2' (bibliography.bib): Invalid format '05-Septiembre-2024' of date field 'date' - ignoring
+[577] Biber.pm:131> WARN - online entry 'margarita3' (bibliography.bib): Invalid format '23-Julio-2024' of date field 'date' - ignoring
+[577] Biber.pm:131> WARN - online entry 'oscar1' (bibliography.bib): Invalid format '23-Marzo-2019' of date field 'date' - ignoring
+[577] Biber.pm:131> WARN - online entry 'oscar2' (bibliography.bib): Invalid format '24-marzo-2019' of date field 'date' - ignoring
+[577] Biber.pm:131> WARN - online entry 'oscar3' (bibliography.bib): Invalid format '25-marzo-2019' of date field 'date' - ignoring
+[577] Biber.pm:133> INFO - WARNINGS: 6

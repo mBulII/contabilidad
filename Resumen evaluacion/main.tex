@@ -1,0 +1,261 @@
+\documentclass[letter,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage[makeroom]{cancel}
+\usepackage{array} 
+\usepackage[export]{adjustbox}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage[
+backend=biber,
+style=ieee,
+minnames=1,
+maxcitenames=2, maxbibnames=6
+]{biblatex}
+\DefineBibliographyStrings{spanish}{%
+	url = {[En línea]. Disponible en:},
+}
+\addbibresource{bibliography.bib}
+%\usepackage[none]{hyphenat}
+\usepackage{multicol,graphicx,fancyhdr,eso-pic,url,float,lmodern,listings,times,textcomp,amsthm,amsmath,amssymb,mathptmx,dsfont,color,colortbl,sidecap,xspace,epic,eepic,anysize,setspace,hyperref,pdflscape,subfigure,gensymb,siunitx,caption,subcaption,wrapfig,enumitem}
+
+% Python SQL C++ HTML Matlab
+\lstset{
+	language=C,
+	basicstyle=\ttfamily\small,
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=5pt,
+	showspaces=false,
+	showstringspaces=false,
+	breaklines=true,
+}
+\renewcommand{\lstlistingname}{Código}
+\marginsize{2cm}{2cm}{2cm}{2cm}
+
+\rhead{Ingeniería Civil en Informática}
+\rfoot{Universidad de Los Lagos}
+\lfoot{A. Ibáñez}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\pagestyle{fancy} 
+
+\begin{document}
+	\begin{figure}
+		\includegraphics[width=0.3\textwidth, left]{figures/download.png}
+	\end{figure}
+	\setlength{\unitlength}{1 cm} 
+	\title{\scshape\Huge{Resumen Evaluación}\\\vspace{0.5cm}
+		
+		\Large Ingeniería Civil en Informática\\\vspace{1cm}
+		\Large Contabilidad y Costos\\\vspace{2cm}}
+	
+	\author{
+		Alvaro Benjamín Ibáñez Cisternas\\
+		alvarobenjamin.@alumnos.ulagos.cl
+		%\and
+		%otro\\
+		%otro.ulagos\\\\
+		%otro\\
+		%otro.ulagos
+	\vspace{3cm}}
+	
+	\date{25/11/2024}
+	\maketitle
+	\thispagestyle{empty}
+	\clearpage
+	\setcounter{page}{1}
+	
+	\pagenumbering{Roman}
+	\tableofcontents
+	\newpage
+	%\listoffigures
+	%\newpage
+	%\listoftables
+	%\newpage
+	%\lstlistoflistings
+	%\newpage
+	
+	\pagenumbering{arabic}
+	
+	\section{Contenido visto en clases}
+	\subsection{Estado de resultado}
+			\begin{itemize}
+				\item \textbf{¿Qué es el estado de resultado?:} El estado de resultado es un informe que se prepara mes a mes o semana a semana para determinar cómo funciono la empresa en ese periodo, midiendo así la productividad.
+				\item \textbf{¿Por qué es importante?:} Puesto que sirve para saber los ingresos de una empresas, cuales son los costos, si la empresa obtuvo ganancias o pérdidas.
+				\item \textbf{Nombres sinónimos:} Estado de ganancias y pérdidas, estado de operaciones o estado de ganancias.
+			\end{itemize}
+			En resumen, el estado de resultados es una representación separada y un resumen de las transacciones correspondientes a los ingresos generados, además a los gastos de los costos incurridos por la empresa durante un año. \textit{La utilidad o perdida del estado de resultados ira a incrementar el capital si hay utilidad o disminuir el capital si hubiera perdida.}	\\\\
+			\textbf{Estructura y contenido}
+			\begin{itemize}
+				\item Nombre de la entidad u otra forma de identificación.
+				\item Si los estados financieros pertenecen a una entidad individual o a un grupo de entidades.
+				\item La fecha del cierre del periodo.
+				\item La moneda de presentación.
+				\item El grado de redondeo al presentar las cifras.
+				\item Una sección para los ingresos, una para los gastos y al final del estado existe una sección para la utilidad o para la pérdida.
+				\item Los conceptos de estas cuentas se clasificarán en ordinarios y no ordinarios. 
+				\item Normas de información financiera (NIF)
+				\item Se encuentra en la A-5 elementos básicos de los estados financieros.
+				\item Partidas ordinarias = Habituales de la empresa.
+				\item Ingreso operacionales:
+					\begin{itemize}
+						\item Ventas totales - Devoluciones - Rebajas - Descuentos sobre ventas = Ventas netas
+						\item Ventas netas- Costos de ventas = Utilidad Bruta.
+					\end{itemize} 
+				\item Ingreso NO operacionales: Se refieren a aquellos percibidos de actividades diferentes a las de producción de un producto o servicio.
+			\end{itemize}
+			
+			\textbf{Definiciones}
+			\begin{itemize}
+				\item \textbf{Costos:} Son las erogaciones \footnote{Distribuir, repartir bienes} o cargos que están asociados directamente con la producción de bienes o servicios, y de los cuales se generan ingresos.
+				
+				\item \textbf{Costos de ventas:} Es el importe del costo de las mercancías vendidas. Se obtiene a través de la siguiente formula:
+				\begin{center}
+					\textbf{Inventario inicial + Compras netas - Inventario Final = Costo de ventas}
+				\end{center}
+			    
+			    \item \textbf{Gastos:} Son las erogaciones  o cargos que \textbf{NO} están asociados directamente con la producción de bienes o servicios, y de los cuales \textbf{NO} se generan ingresos.
+			    
+			    \item \textbf{Gastos operacionales:} Disminuciones patrimoniales causadas en las actividades de administración, comercialización o venta, que producen reducción en el activo o aumento en el pasivo o una combinación de ambos, pero que son indispensables para que la empresa siga funcionando.
+			    
+			    \item \textbf{Gastos de venta:} Comprenden las erogaciones que tienen una relación directa con el esfuerzo que se realiza por el negocio para vender los bienes que produce o los servicios que esta brinda. Afectan directamente la actividad comercial y pueden incluirse algunos como los siguientes ejemplos:
+			    	\begin{itemize}
+			    		\item Sueldos o salarios.
+			    		\item Comisiones a agentes vendedores.
+			    		\item Gastos de mantenimiento de vehículo asignado al área de ventas.
+			    		\item Fletes.
+			    		\item Publicidad.
+			    		\item Combustible para el transporte para la venta.
+			    		\item Servicio de telefonía.
+			    	\end{itemize}
+			    
+			    \item \textbf{Gastos de administración:} Estos se refieren a los que son necesarios para llevar un control de la operación del negocio, no se relacionan directamente con la producción.
+			    \begin{itemize}
+			    	\item Sueldo al contador.
+			    	\item Sueldo al gerente de la empresa.
+			    	\item Asistentes administrativos.
+			    \end{itemize}
+			    
+			    \item \textbf{Gastos NO operacionales: } Erogaciones o cargos realizados por la empresa que no se relacionan directamente con su objetivo.
+			\end{itemize}
+	
+		\subsection{Control interno}
+		El control interno de una empresa se define como aquellas actividades y conjunto de métodos que se integran a las operaciones normales de la organización con el objetivo de:
+		\begin{itemize}
+			\item Proteger activos y salvaguardar recursos
+			\item Minimizar errores.
+			\item Garantizar una operación adecuada y eficiente.
+			\item Cumplir los objetivos y metas.
+			\item Verificar la exactitud y veracidad de su información financiera y administrativa.
+			\item Incentivar la rentabilidad.
+			\item Asegurar que todas las acciones institucionales en la entidad se desarrollen en el marco de las normas constitucionales, legales y reglamentarias.
+		\end{itemize}
+		\begin{center}
+			\textbf{\textit{Un buen control interno lucha contra el fraude}}
+		\end{center}
+	
+		\textbf{¿Como hacer un Control interno de una empresa?}
+		\begin{itemize}
+			\item Asegurarse que las funciones estén separadas.
+			\item Crear una cultura de control mediante la comunicación, la motivación y la capacitación.
+			\item Mediante una entrevista o documento, cada empleado hace una descripción de las labores llevadas a cabo.
+			\item Confección de cuestionarios o listas de chequeo. Estos métodos contienen cuestiones orientadas a conocer la dinámica interna de cada área de la organización.
+			\item Se puede extraer información útil con la observación.
+			\item Revisar los procedimientos y hacer un diagnóstico.
+			\item Identificar los riesgos de tu negocio y elimínelos de inmediato.
+			\item Desarrollar políticas y procedimientos por escrito.
+		\end{itemize}
+	
+	\section{ENEFA 2024 - Presentación del profesor}
+		\subsection{MODELO DE DETECCION DE FRAUDE FINANCIERO PARA MUNICIPALIDADES:}
+		Según la neurología y el apartado \ref{neurología}, el cerebro de los fraudulentos se adapta a las situaciones ilegales y las normaliza llegando a justificarlas. Normalmente el corrupto se ve superior al resto y menosprecia a la comunidad.
+		
+		\textbf{Magnitud del problema}
+		\begin{itemize}
+			\item Entre julio de 2021 y diciembre de 2023 los montos defraudados  alcanzaron a \$205.000 millones de pesos.
+			\item El gasto del gobierno es de US\$ \$71.417.128, por lo cual, el porcentaje en fraude correspondería al 0.26\%
+			\item El primer semestre de 2024, existen 67 comunas en las que se encontraron delitos en el uso de recursos públicos de \$431 mil millones.
+			\begin{center}
+				\begin{tabular}{|c|c|}
+					\hline
+					Delitos & Cantidad de denuncia\\
+					\hline
+					Fraudes al fisco & 689\\
+					\hline
+					Malversación de caudales públicos & 432\\
+					\hline
+					Cohecho & 395\\
+					\hline
+					Falsificación de instrumento público & 110\\
+					\hline
+					Lavado de activos & 101\\
+					\hline
+					Irregularidades & 68\\
+					\hline
+				\end{tabular}
+			\end{center}
+			\item 40 alcaldes han sido imputados y se han presentado querellas en el 40\% de las municipalidades del país.
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline
+					Cantidad de Muni. & \% de Muni. con Querellas  & Casos Cerra. o Sus. &  \% de casos cerra. o sus. \\
+					\hline
+					137 & 39\% & 58 & 42\% \\
+					\hline
+				\end{tabular}
+			\end{center}
+		\end{itemize}
+		\textbf{Conclusiones}
+		\begin{enumerate}
+			\item Los gobiernos comunales parecen ser un campo fértil para los delitos de corrupción.
+			\item El alcalde o exalcaldes aparecen imputado en 40 causas que pudieron ser revisadas.
+			\item  El sistema judicial tiene una baja tasa de eficiencia, ya que,  desecha o no persiste en el 42 \% de los casos. Lo cual refleja problemas del diseño penal, exigiéndolo a la fiscalía unos altos estándares en las pruebas, que refleja un sistema extremadamente garantista que necesita ser modificado urgentemente.
+			\item La ausencia de culpables en los casos que ya fueron cerrados y poco avance en las investigaciones del Ministerio Público provoca en la ciudadanía un sentimiento que todo está permitido. 
+		\end{enumerate}
+		
+		\subsection{El cerebro de los corruptos se adapta para autojusticarse}\label{neurología}
+			El cerebro de los corruptos, expuesto repetidamente a la mentira, el engaño y a la continua ejecución de actos en el propio beneficio sin ataduras morales ni importar el daño al prójimo, se adapta para aceptar estas conductas. La amígdala es la zona del cerebro responsable de las reacciones emocionales cuando una persona actúa de forma deshonesta en su vida diaria. Según los resultados de este trabajo, cuando la mentira o el engaño se convierten en habituales, la intensidad de esa reacción va disminuyendo hasta el punto de permitir al individuo ejecutar acciones cada vez más deshonestas sin remordimientos. Así, el cerebro se adapta de forma evolutiva ante la nueva situación.
+			
+			
+		\section{Definiciones y casos de Delitos}
+		\subsection*{Fraude al fisco}
+			\begin{itemize}
+				\item \textbf{Definición:} Un delito que realiza un individuo en el cual un funcionario público en su rol permite o realiza un fraude al estado o cualquier entidad pública.
+				
+				\item \textbf{Caso:} Se condenó a PEDRO CÉSAR GUERRA GUERRERO por el crimen de fraude al fisco además de cohecho, se llegó a esta condena después de demostrar la participación de este en el acto de sobornar a los trabajadores públicos, aumentar el valor de oferta de la empresa y manipular el proceso de licitación. La demostración fue a través de testimonios por parte de otros imputados en el caso, facturas falsas junto a registros contables irregulares y el registro de comunicaciones entre el individuo y los otros imputados.
+			\end{itemize}
+		\subsection*{Malversación de caudales públicos}
+			\begin{itemize}
+				\item \textbf{Definición:}La malversación viene siendo un uso indebido de bienes públicos y está dividido en cinco categorías. 
+				\begin{itemize}
+					\item Peculado doloso: Este delito es cuando un empleado público es partícipe o permite la sustracción de caudales públicos o bienes que estén a su cargo.
+					\item  Peculado culposo: El empleado público, por negligencia o abandono, da paso a que un tercero sustraiga caudales públicos o bienes que estén a su cargo.
+					\item  Distracción o desfalco: En esta ocasión el empleado público da uso de los caudales públicos para su propio beneficio.
+					\item  Aplicación pública diferente: El empleado público da a los caudales un uso distinto al destinado originalmente de manera arbitraria.
+					\item Negativa al pago o entrega: El empleado público se niega a hacer un pago o entregar un bien que se encuentra bajo su custodia que ha sido solicitada por una autoridad competente.
+				\end{itemize} 
+				\item \textbf{Caso:} El acusado es JUAN PABLO DÍAZ BURGOS, presidente de la Corporación Cultural y alcalde de la comuna de Graneros, Fue acusado de malversación de caudales públicos, junto con otros involucrados, por sustraer o permitir la sustracción de \$150.625.378 provenientes de fondos públicos. Los fondos fueron girados en cheques sin justificación a terceros, incluyendo al contador de la corporación, y parte de este dinero no fue respaldado con documentación adecuada. el acusado fue absuelto, concluyendo que no se demostró su participación en el delito.
+			\end{itemize}
+		\subsection*{Cohecho}
+			\begin{itemize}
+				\item \textbf{Definición:} Un delito donde un funcionario público recibe una suma de dinero, un soborno, para no cumplir sus deberes, ejercer una influencia o cometer un delito.
+	
+				\item \textbf{Caso:}En este caso MARIO MORALES CARRASCO fue condenado a 17 años de presidio por el crimen de cohecho. Esta condena la recibe puesto que él, con su cargo de alcalde suplente de tierra amarilla, fue partícipe de múltiples delitos en los cuales se realizaron movimientos y manipulaciones irregulares con la intención de conceder la adjudicación de contratos municipales a contratistas terceros bajo la promesa de recibir un monto de dinero. Gracias a las acciones ilícitas de MARIO MORALES CARRASCO en el año 2019 BERTOGLIA CALVETTI se adjudico multiples proyectos entre ellos “fumigación de viviendas y mascotas para el control” (\$54.988.186) y “desratización municipal, comuna de tierra amarilla” (\$70.329.405 y \$27.092.557), lo mismo ocurrió con HUGO MAYA ARAYA el cual recibió las licitaciones por “Mejoramiento y construcción de bandejón central acceso norte, Tierra Amarilla” (\$97.956.802) y otras más.
+			\end{itemize}
+		\subsection*{Falsificación de instrumento público}
+			\begin{itemize}
+				\item \textbf{Definición:} Se refiere a la creación o alteración de documentos emitidos por autoridades públicas, como por ejemplo cédulas de identidad, licencias de conducir, pasaportes, etc.
+			
+				\item \textbf{Caso:} JUAN FRANCISCO MEZA CONTRERAS era un funcionario público de la municipalidad de Pelluhue, aquí él rendía sus labores como el director de obras públicas. Fue imputado por cometer el delito de falsificación de instrumento público, el realizó este delito para el expreso propósito de extender certificados irregulares los cuales permitieron la subdivisión de terrenos o parcelas en áreas que eran parte rural y parte urbana. Estos lotes era de una superficie mucho menor a la requerida legalmente (0.5 hectáreas), por lo que no cumplían con las regulaciones establecidas.
+			\end{itemize}
+		\subsection*{Lavado de activos e irregularidades}
+			\begin{itemize}
+				\item \textbf{Definición:} Se refiere a el ocultamiento del origen ilícito de ciertos bienes, además de la posesión y uso de estos con la intención de lucrar cuando el involucrado está al tanto del origen ilícito de estos bienes.
+			
+				\item \textbf{Caso:} MARCELO ANTONIO TORRES FERRARI fue concejal de la comuna de Maipu entre los años 2009 y 2011, fue autor del delito de cohecho y lavado de activos en el “Caso Basura”. Este caso involucró múltiples individuos en posiciones públicas los cuales realizaron movimientos irregulares con la intención de permitirle a una empresa (KDM) una gran ventaja en el proceso de licitación relacionado con los servicios de recolección y transporte de residuos sólidos. MARCELO ANTONIO TORRES FERRARI en específico recibió el monto de \$186.500.000 como soborno, este dinero fue lavado a través de inversiones en una sociedad (Sociedad de Inversiones Don Óscar Ltda) la cual también participó en otros procesos de licitación. El lavado de dinero fue realizado en varias formas, usando la ayuda de terceros para abrir cuentas bancarias, invirtiendo en la sociedad previamente mencionada y realizando la compra de bienes, entre ellos un vehículo a nombre de un tercero. Por estos motivos él fue condenado a 3 años de reclusión menor en su grado medio además de una multa de 200 UTM.
+			\end{itemize}
+		
+			
+\end{document}

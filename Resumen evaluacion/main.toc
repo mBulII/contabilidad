@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Contenido visto en clases}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Estado de resultado}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Control interno}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}ENEFA 2024 - Presentación del profesor}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}MODELO DE DETECCION DE FRAUDE FINANCIERO PARA MUNICIPALIDADES:}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}El cerebro de los corruptos se adapta para autojusticarse}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Definiciones y casos de Delitos}{4}{section.3}%
