@@ -6,3 +6,4 @@
 \contentsline {subsection}{\numberline {2.1}MODELO DE DETECCION DE FRAUDE FINANCIERO PARA MUNICIPALIDADES:}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}El cerebro de los corruptos se adapta para autojusticarse}{4}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Definiciones y casos de Delitos}{4}{section.3}%
+\contentsline {section}{\numberline {4}Clases de presupuesto costeo directo y costeo por absorción }{6}{section.4}%
